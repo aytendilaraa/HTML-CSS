@@ -1,0 +1,29 @@
+div{
+    width: 200px;
+    height: 30px;
+    border: 1px solid;
+    margin: 5px;
+    line-height: 30px;
+    text-align: center;
+}
+.box1{
+    background-color: aquamarine;
+}
+
+.box2{
+    background-color: rgb(171, 232, 211);
+}
+
+.box3{
+    background-color: rgba(100, 100, 100, 0.5);
+}
+.box4{
+    background-color: #17544c;
+}
+.box5{
+    background-color: hsl(142, 100%, 64%);
+}
+
+.box6{
+    background-color: hsla(142, 100%, 64%, 0.5);
+}

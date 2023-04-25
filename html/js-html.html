@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function fonk(){
+            document.getElementById('prf').innerHTML = "Bu bir paragraftır.";
+            document.getElementById('prf').style.color="red";
+            document.getElementById('prf').style.backgroundColor="yellowgreen";
+        } 
+        function Year() {
+            var d = new Date();
+            document.getElementById('prf2').innerHTML=d.getFullYear();
+        }
+    </script>
+</head>
+<body>
+    <button onclick="fonk()">Tıkla</button>
+    <p id="prf"></p>
+    <button onclick = "Year()">Yılı Öğren</button>
+    <p id="prf2"></p>
+</body>
+</html>

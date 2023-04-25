@@ -1,0 +1,9 @@
+div{
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    background-color: blue;
+    margin: 5px;
+}
+
+/* inline block seviyesindeki lineları inline'a çevirir */

@@ -1,0 +1,14 @@
+div{
+    width: 200px;
+    height: 100px;
+    background-color: blueviolet;
+    text-align: center;
+    line-height: 100px;
+}
+div:hover{
+    background-color: aqua;
+}
+
+input:checked + div{
+    background-color: blue;
+}
